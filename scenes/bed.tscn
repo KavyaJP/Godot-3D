@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcny6h55sr2vt"]
+
+[ext_resource type="PackedScene" uid="uid://depnmnf0qvv7j" path="res://models/gltf/bed_frame.gltf" id="1_akt7f"]
+
+[node name="Bed" type="StaticBody3D"]
+
+[node name="bed_frame2" parent="." instance=ExtResource("1_akt7f")]

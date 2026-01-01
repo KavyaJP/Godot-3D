@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwsgidxgb3b1x"]
+
+[ext_resource type="PackedScene" uid="uid://bs2mxem6mfx48" path="res://models/gltf/ceiling_tile.gltf" id="1_ji6l1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gl8kw"]
+size = Vector3(4.0058594, 0.14978027, 4)
+
+[node name="Ceiling" type="StaticBody3D"]
+
+[node name="ceiling_tile2" parent="." instance=ExtResource("1_ji6l1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025817871, 0)
+shape = SubResource("BoxShape3D_gl8kw")

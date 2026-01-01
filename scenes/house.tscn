@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cy4pndarm6ney"]
+[gd_scene load_steps=11 format=3 uid="uid://cy4pndarm6ney"]
 
 [ext_resource type="PackedScene" uid="uid://cq4c71q7mtbut" path="res://scenes/walls/wall.tscn" id="1_d7po0"]
 [ext_resource type="PackedScene" uid="uid://d2o2rf5rta3gm" path="res://scenes/walls/wall_corner.tscn" id="2_qtlar"]
@@ -6,6 +6,10 @@
 [ext_resource type="PackedScene" uid="uid://8fd8cl5xmxht" path="res://scenes/walls/wall_doorway.tscn" id="4_se78b"]
 [ext_resource type="PackedScene" uid="uid://cp4mflbfp3glr" path="res://scenes/floor/stone_floor.tscn" id="5_3bgk5"]
 [ext_resource type="PackedScene" uid="uid://bwsgidxgb3b1x" path="res://scenes/ceiling.tscn" id="6_f74lx"]
+[ext_resource type="PackedScene" uid="uid://dcny6h55sr2vt" path="res://scenes/decorations/bed.tscn" id="7_ptc3g"]
+[ext_resource type="PackedScene" uid="uid://f3nhk7t8c035" path="res://scenes/decorations/torch.tscn" id="8_mhx8p"]
+[ext_resource type="PackedScene" uid="uid://dyt1qav26bss4" path="res://scenes/decorations/chests/chest.tscn" id="9_65la3"]
+[ext_resource type="PackedScene" uid="uid://d1wbwrrihuq1w" path="res://scenes/decorations/chests/chest_gold.tscn" id="10_qcuhb"]
 
 [node name="House" type="Node3D"]
 
@@ -216,5 +220,30 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.361813, 4.55, -11.91218)
 [node name="Ceiling22" parent="Ceiling" instance=ExtResource("6_f74lx")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.63818693, 4.55, -11.91218)
 
+[node name="Decorations" type="Node" parent="."]
+
+[node name="Bed" parent="Decorations" instance=ExtResource("7_ptc3g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2065847, 0.55, -11.949547)
+
+[node name="Torch" parent="Decorations" instance=ExtResource("8_mhx8p")]
+transform = Transform3D(1, 0, 0, 0, 0.92121255, -0.3890596, 0, 0.3890596, 0.92121255, 0.5668354, 2.75856, -13.621291)
+
+[node name="Torch2" parent="Decorations" instance=ExtResource("8_mhx8p")]
+transform = Transform3D(1, 0, 0, 0, 0.9635931, 0.2673729, 0, -0.2673729, 0.9635931, 1.4264913, 2.6694913, 5.615408)
+
+[node name="Torch3" parent="Decorations" instance=ExtResource("8_mhx8p")]
+transform = Transform3D(0.9296801, -0.36836794, 0, 0.36836794, 0.9296801, 0, 0, 0, 1, 9.100876, 2.3771598, 0)
+
+[node name="Chest" parent="Decorations" instance=ExtResource("9_65la3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.822, 0.65, -8.5)
+
+[node name="ChestGold" parent="Decorations" instance=ExtResource("10_qcuhb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.804, 0.65, -8.5)
+
+[node name="chest_gold_lid" parent="Decorations/ChestGold/chest_gold2/chest_gold" index="0"]
+transform = Transform3D(1, 0, 0, 0, -0.0023911414, 0.99999714, 0, -0.99999714, -0.0023911414, 0, 0.5, -0.56488323)
+
 [editable path="Doorways/WallDoorway2"]
 [editable path="Doorways/WallDoorway2/wall_doorway2"]
+[editable path="Decorations/ChestGold"]
+[editable path="Decorations/ChestGold/chest_gold2"]

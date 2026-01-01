@@ -1,5 +1,1109 @@
-[gd_scene format=3 uid="uid://bwyrdga4t7qfr"]
+[gd_scene load_steps=2 format=3 uid="uid://bwyrdga4t7qfr"]
 
-[node name="Floor" type="CSGBox3D"]
-use_collision = true
-size = Vector3(36.094116, 1, 48.183716)
+[ext_resource type="PackedScene" uid="uid://ctpv030j7l183" path="res://scenes/floor/floor_foundation.tscn" id="1_w0xbj"]
+
+[node name="Floor" type="Node3D"]
+
+[node name="Col1" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col1" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col2" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col2" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col3" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col3" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col4" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col4" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col5" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.2, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col5" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col6" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col6" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col7" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col7" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col8" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col8" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col9" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col9" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col10" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col10" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col11" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col11" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col12" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.2, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col12" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col13" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.4, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col13" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col14" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.6, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col14" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col15" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.8, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col15" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)
+
+[node name="Col16" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, -1.5, 0)
+
+[node name="FloorFoundation1" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 23)
+
+[node name="FloorFoundation2" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 20.808823)
+
+[node name="FloorFoundation3" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 18.60884)
+
+[node name="FloorFoundation4" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 16.408848)
+
+[node name="FloorFoundation5" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 14.208869)
+
+[node name="FloorFoundation6" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 12.00888)
+
+[node name="FloorFoundation7" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 9.808894)
+
+[node name="FloorFoundation8" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 7.6089106)
+
+[node name="FloorFoundation9" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 5.408923)
+
+[node name="FloorFoundation10" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 3.2106123)
+
+[node name="FloorFoundation11" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, 1.0106249)
+
+[node name="FloorFoundation12" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -1.1893587)
+
+[node name="FloorFoundation13" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -3.3893442)
+
+[node name="FloorFoundation14" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -5.5893307)
+
+[node name="FloorFoundation15" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -7.789315)
+
+[node name="FloorFoundation16" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -9.989304)
+
+[node name="FloorFoundation17" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(-0.0036477083, 0, 0.9999933, 0, 1, 0, -0.9999933, 0, -0.0036477083, 0, 0, -12.189288)
+
+[node name="FloorFoundation18" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -14.385157)
+
+[node name="FloorFoundation19" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -16.585114)
+
+[node name="FloorFoundation20" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -18.785069)
+
+[node name="FloorFoundation21" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -20.985027)
+
+[node name="FloorFoundation22" parent="Col16" instance=ExtResource("1_w0xbj")]
+transform = Transform3D(0.0014661355, 0, 0.99999887, 0, 1, 0, -0.99999887, 0, 0.0014661355, 0, 0, -23.184982)

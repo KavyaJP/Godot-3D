@@ -82,70 +82,70 @@ transform = Transform3D(0.6047381, 0, -0.7964244, 0, 1, 0, 0.7964244, 0, 0.60473
 [node name="Floor" type="Node" parent="."]
 
 [node name="StoneFloor" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.435, 3.4963174)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, 3.4963174)
 
 [node name="StoneFloor2" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.435, 3.4963174)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, 3.4963174)
 
 [node name="StoneFloor3" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.435, 3.4963174)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.5, 3.4963174)
 
 [node name="StoneFloor4" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.7, 0.435, 3.4963174)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.7, 0.5, 3.4963174)
 
 [node name="StoneFloor5" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.435, -0.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.5, -0.5)
 
 [node name="StoneFloor6" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.435, -0.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, -0.5)
 
 [node name="StoneFloor7" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.435, -0.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, -0.5)
 
 [node name="StoneFloor8" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.435, -0.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.5, -0.5)
 
 [node name="StoneFloor9" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.7, 0.435, -0.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.7, 0.5, -0.5)
 
 [node name="StoneFloor10" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.7, 0.435, -4.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.7, 0.5, -4.5)
 
 [node name="StoneFloor11" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.435, -4.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.5, -4.5)
 
 [node name="StoneFloor12" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.435, -4.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, -4.5)
 
 [node name="StoneFloor13" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.435, -4.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, -4.5)
 
 [node name="StoneFloor14" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.435, -4.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.5, -4.5)
 
 [node name="StoneFloor15" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.7, 0.435, -8.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.7, 0.5, -8.3)
 
 [node name="StoneFloor16" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.435, -8.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.5, -8.3)
 
 [node name="StoneFloor17" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.435, -8.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, -8.3)
 
 [node name="StoneFloor18" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.435, -8.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, -8.3)
 
 [node name="StoneFloor19" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.435, -8.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.5, -8.3)
 
 [node name="StoneFloor20" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.435, -12.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.5, -12.3)
 
 [node name="StoneFloor21" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.435, -12.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, -12.3)
 
 [node name="StoneFloor22" parent="Floor" instance=ExtResource("5_3bgk5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.435, -12.3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, -12.3)
 
 [editable path="Doorways/WallDoorway2"]
 [editable path="Doorways/WallDoorway2/wall_doorway2"]

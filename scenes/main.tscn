@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://bg0gm8q57cd33"]
+[gd_scene load_steps=7 format=3 uid="uid://bg0gm8q57cd33"]
 
 [ext_resource type="PackedScene" uid="uid://cy4pndarm6ney" path="res://scenes/house.tscn" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://bwyrdga4t7qfr" path="res://scenes/floor/floor.tscn" id="1_sugp2"]
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="2_0wfyh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_o5qli"]
@@ -25,13 +26,13 @@ environment = SubResource("Environment_sugp2")
 transform = Transform3D(0.3420201, 0.8137977, -0.4698463, 2.7805942e-08, 0.49999994, 0.86602545, 0.93969274, -0.2961981, 0.17100997, -18.3, 5.9, -1.8000001)
 shadow_enabled = true
 
-[node name="Floor" type="CSGBox3D" parent="."]
-use_collision = true
-size = Vector3(18, 1, 18)
-
 [node name="House" parent="." instance=ExtResource("1_o5qli")]
 
 [node name="ProtoController" parent="." instance=ExtResource("2_0wfyh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.90000004, 0.46, 6.7)
 can_sprint = true
 can_freefly = true
+
+[node name="Floor" parent="." instance=ExtResource("1_sugp2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.9185486)
+size = Vector3(36.094116, 1, 36.34662)

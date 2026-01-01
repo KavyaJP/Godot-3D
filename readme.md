@@ -12,24 +12,26 @@ Thanks to brackeys for making the tutorial and kaykit for the assets.
 
 ## How to run
 
-Method 1: Editor
-	1. Download the project
-		```bash
-		https://github.com/KavyaJP/Godot-3D.git
-		```
+### Method 1: Editor
 
-	2. Open Godot engine (4.5.1 recommended) project manager and select import, and set the path for the Godot-3D directory.
+1. Download the project
+```bash
+https://github.com/KavyaJP/Godot-3D.git
+```
 
-	3. Press F5 and set main.tscn as the main scene and play the game.
+2. Open Godot engine (4.5.1 recommended) project manager and select import, and set the path for the Godot-3D directory.
+
+3. Press F5 and set main.tscn as the main scene and play the game.
 	
-Method 2: (Upcoming)
-	1. Download the binaries from the releases page of this repository.
+### Method 2: (Upcoming)
+
+1. Download the binaries from the releases page of this repository.
 	
-	2. Run the binary .exe (Windows), .x86_64 (Linux) or install the .apk(Android) file and play the game.
+2. Run the binary .exe (Windows), .x86_64 (Linux) or install the .apk(Android) file and play the game.
 	
 	or
 	
-	2. Start a terminal in the same directory as where you downloaded the web version of the game and run this command and go to `http://localhost:8000` on your web browser
-		```bash
-		python -m http.server
-		```
+2. Start a terminal in the same directory as where you downloaded the web version of the game and run this command and go to `http://localhost:8000` on your web browser
+```bash
+python -m http.server
+```

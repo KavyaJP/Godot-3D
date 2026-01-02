@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://cy4pndarm6ney"]
+[gd_scene load_steps=17 format=3 uid="uid://cy4pndarm6ney"]
 
 [ext_resource type="PackedScene" uid="uid://cq4c71q7mtbut" path="res://scenes/walls/wall.tscn" id="1_d7po0"]
 [ext_resource type="PackedScene" uid="uid://d2o2rf5rta3gm" path="res://scenes/walls/wall_corner.tscn" id="2_qtlar"]
@@ -10,6 +10,12 @@
 [ext_resource type="PackedScene" uid="uid://f3nhk7t8c035" path="res://scenes/decorations/torch.tscn" id="8_mhx8p"]
 [ext_resource type="PackedScene" uid="uid://dyt1qav26bss4" path="res://scenes/decorations/chests/chest.tscn" id="9_65la3"]
 [ext_resource type="PackedScene" uid="uid://d1wbwrrihuq1w" path="res://scenes/decorations/chests/chest_gold.tscn" id="10_qcuhb"]
+[ext_resource type="PackedScene" uid="uid://cv1drgocxo8ou" path="res://scenes/decorations/table.tscn" id="11_65la3"]
+[ext_resource type="PackedScene" uid="uid://bgsvf8obnqc7" path="res://scenes/decorations/chair.tscn" id="12_qcuhb"]
+[ext_resource type="PackedScene" uid="uid://byj2kah5bvyaf" path="res://scenes/decorations/barrels/barrel_large.tscn" id="13_3ewhn"]
+[ext_resource type="PackedScene" uid="uid://dt1sh5vvb1rw1" path="res://scenes/decorations/barrels/barrel_large_decorated.tscn" id="14_0fn05"]
+[ext_resource type="PackedScene" uid="uid://ctq0go336e8dn" path="res://scenes/decorations/barrels/barrel_small.tscn" id="15_82h1m"]
+[ext_resource type="PackedScene" uid="uid://bnw7q0dmqo2if" path="res://scenes/decorations/barrels/barrel_small_stacked.tscn" id="16_e5ov4"]
 
 [node name="House" type="Node3D"]
 
@@ -241,7 +247,37 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.822, 0.65, -8.5)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.804, 0.65, -8.5)
 
 [node name="chest_gold_lid" parent="Decorations/ChestGold/chest_gold2/chest_gold" index="0"]
-transform = Transform3D(1, 0, 0, 0, -0.0023911414, 0.99999714, 0, -0.99999714, -0.0023911414, 0, 0.5, -0.56488323)
+transform = Transform3D(1, 0, 0, 0, 0.4202599, 0.9074037, 0, -0.9074037, 0.4202599, 0, 0.5, -0.56488323)
+
+[node name="CollisionShape3D" parent="Decorations/ChestGold" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00039672852, 0.29711914, 0)
+
+[node name="Table" parent="Decorations" instance=ExtResource("11_65la3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3254192, 0.5601165, 3.4383178)
+
+[node name="Chair" parent="Decorations" instance=ExtResource("12_qcuhb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6075387, 0.5246388, 4.2728815)
+
+[node name="Chair2" parent="Decorations" instance=ExtResource("12_qcuhb")]
+transform = Transform3D(0.9723047, 0, -0.23371689, 0, 1, 0, 0.23371689, 0, 0.9723047, 3.8286395, 0.5246388, 2.8549304)
+
+[node name="Chair3" parent="Decorations" instance=ExtResource("12_qcuhb")]
+transform = Transform3D(-0.9682437, 0, -0.25000829, 0, 1, 0, 0.25000829, 0, -0.9682437, 0.8276019, 0.5246388, 4.2728815)
+
+[node name="Chair4" parent="Decorations" instance=ExtResource("12_qcuhb")]
+transform = Transform3D(-0.99531054, 0, 0.09673172, 0, 1, 0, -0.09673172, 0, -0.99531054, 1.1036029, 0.5246388, 2.602338)
+
+[node name="Barrel Large" parent="Decorations" instance=ExtResource("13_3ewhn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.842874, 0.5632613, 0)
+
+[node name="BarrelLargeDecorated" parent="Decorations" instance=ExtResource("14_0fn05")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8537836, 0.5764711, -4.5977526)
+
+[node name="BarrelSmall" parent="Decorations" instance=ExtResource("15_82h1m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.333122, 0.55423343, 4.605097)
+
+[node name="BarrelSmallStacked" parent="Decorations" instance=ExtResource("16_e5ov4")]
+transform = Transform3D(0.2646137, 0, 0.9643545, 0, 1, 0, -0.9643545, 0, 0.2646137, -8.1862755, 0.51014197, 2.9778578)
 
 [editable path="Doorways/WallDoorway2"]
 [editable path="Doorways/WallDoorway2/wall_doorway2"]

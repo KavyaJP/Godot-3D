@@ -238,9 +238,6 @@ transform = Transform3D(1, 0, 0, 0, 0.92121255, -0.3890596, 0, 0.3890596, 0.9212
 [node name="Torch2" parent="Decorations" instance=ExtResource("8_mhx8p")]
 transform = Transform3D(1, 0, 0, 0, 0.9635931, 0.2673729, 0, -0.2673729, 0.9635931, 1.4264913, 2.6694913, 5.615408)
 
-[node name="Torch3" parent="Decorations" instance=ExtResource("8_mhx8p")]
-transform = Transform3D(0.9296801, -0.36836794, 0, 0.36836794, 0.9296801, 0, 0, 0, 1, 9.100876, 2.3771598, 0)
-
 [node name="Chest" parent="Decorations" instance=ExtResource("9_65la3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.822, 0.65, -8.5)
 
@@ -282,6 +279,9 @@ transform = Transform3D(0.2646137, 0, 0.9643545, 0, 1, 0, -0.9643545, 0, 0.26461
 
 [node name="TorchLit" parent="Decorations" instance=ExtResource("17_0fn05")]
 transform = Transform3D(0.9225718, 0.38582554, 0, -0.38582554, 0.9225718, 0, 0, 0, 1, -10.005829, 2.2355437, 0)
+
+[node name="TorchLit2" parent="Decorations" instance=ExtResource("17_0fn05")]
+transform = Transform3D(0.8133242, -0.5818107, 0, 0.5818107, 0.8133242, 0, 0, 0, 1, 9.039932, 3.005481, 0.0092048645)
 
 [editable path="Doorways/WallDoorway2"]
 [editable path="Doorways/WallDoorway2/wall_doorway2"]

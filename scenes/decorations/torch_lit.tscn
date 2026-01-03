@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bi17gor3vi17m"]
+
+[ext_resource type="PackedScene" uid="uid://bbqvjw4b37so2" path="res://models/gltf/torch_lit.gltf" id="1_qffd1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8isqw"]
+size = Vector3(0.12207031, 0.55688477, 0.12695313)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qffd1"]
+size = Vector3(0.5566406, 0.48876953, 0.55444336)
+
+[node name="TorchLit" type="StaticBody3D"]
+
+[node name="torch_lit2" parent="." instance=ExtResource("1_qffd1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.118774414, 0)
+shape = SubResource("BoxShape3D_8isqw")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40405273, 0)
+shape = SubResource("BoxShape3D_qffd1")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.54143834, 0)
+omni_range = 6.0955396
